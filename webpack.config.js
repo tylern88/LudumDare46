@@ -1,5 +1,5 @@
 const path = require('path');
-const webpack = require('webpack')
+
 module.exports = {
   entry: './src/app.js',
   watch: true,
@@ -24,6 +24,6 @@ module.exports = {
   },
   plugins: [],
   devServer: {
-    port: 3001 // Specify a port number to listen for requests
+    port: 3001
   },
 };
